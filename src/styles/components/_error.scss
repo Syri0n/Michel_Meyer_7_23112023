@@ -1,0 +1,22 @@
+.error-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ff6060;
+
+  span {
+    font-size: 250px;
+    font-weight: 700;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 36px;
+  }
+  .back-home {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ff6060;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

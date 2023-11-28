@@ -1,12 +1,13 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header-banner">
-      <img src={logo} alt="logo Kasa" />
+    <header>
+      <NavLink to="/" className="logo-header">
+        <img src={logo} alt="logo Kasa" />
+      </NavLink>
       <nav className="navbar">
         <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
           Accueil
@@ -15,10 +16,10 @@ const Header = () => {
           to="/about"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          A propos
+          A Propos
         </NavLink>
       </nav>
-    </div>
+    </header>
   );
 };
 
