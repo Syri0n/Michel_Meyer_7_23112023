@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 209px;
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 24px;
+      color: white;
+      margin-top: 28px;
+    }
+  }
+}
